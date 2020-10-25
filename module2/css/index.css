@@ -1,0 +1,50 @@
+
+<style>	
+
+
+#title	{	
+	font-size: 175%;
+}
+
+div	{	
+border: 1px black solid;
+background-color: #A52A2A;
+}
+
+
+head {
+	font: arial;	
+	font-size: 125%;
+	border: 1px black solid;
+	text-align: right;
+
+}
+
+
+
+.row	{	
+	width: 100%;
+}
+
+@media (min-width: 992px ) {
+.p1, .p2, .p3{
+	width: 33.33%
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.p1, .p2{
+	width: 50%
+}
+.p3{
+	width: 100%
+}
+}
+
+@media (max-width: 767px ) {
+.p1, .p2, .p3{
+	width: 100%
+}
+}
+
+</style>

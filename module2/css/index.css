@@ -19,6 +19,8 @@
 	background-color: #EFA443;
 	border: 1px black solid;
 	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     margin: 0;
     width: 230px;
     text-align: center;
@@ -35,6 +37,8 @@
 	background-color: #DBE94E;
 	border: 1px black solid;
 	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     margin: 0;
     width: 230px;
     text-align: center;
@@ -51,6 +55,8 @@
 	background-color: #3DE171;
 	border: 1px black solid;
 	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     margin: 0;
     width: 230px;
     text-align: center;

@@ -1,0 +1,114 @@
+
+<style>	
+
+*{ box-sizing: border-box;
+	color: black;
+	font-family: Arial;
+}
+
+#title {
+	font-size: 175%;
+	text-align: center;
+}
+
+#single {
+	font-size: 125%;
+	position: absolute;
+	top:0;
+	right:0;
+	background-color: #EFA443;
+	border: 1px black solid;
+	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
+}
+
+#double {
+	font-size: 125%;
+	position: absolute;
+	top:0;
+	right:0;
+	background-color: #DBE94E;
+	border: 1px black solid;
+	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
+}
+
+#family {
+	font-size: 125%;
+	position: absolute;
+	top:0;
+	right:0;
+	background-color: #3DE171;
+	border: 1px black solid;
+	float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 230px;
+    text-align: center;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
+}
+
+section{
+position: relative;
+display: block;
+float: right;
+padding: 40px 15px 15px 15px;
+}
+
+div	{	
+border: 1px black solid;
+background-color: #CFF2FA;
+}
+p{
+	display: block;
+	
+}
+
+}
+
+.row	{	
+	width: 100%;
+}
+
+@media (min-width: 992px ) {
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+}
+
+@media (max-width: 767px ) {
+.col-sm-12{
+	width: 100%;
+	float: left;
+}
+</style>

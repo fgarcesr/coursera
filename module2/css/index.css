@@ -20,7 +20,6 @@
 	border: 1px black solid;
 	float: right;
     margin: 0;
-    width: 230px;
     text-align: center;
     font-weight: bold;
     height: 45px;
@@ -36,7 +35,6 @@
 	border: 1px black solid;
 	float: right;
     margin: 0;
-    width: 230px;
     text-align: center;
     font-weight: bold;
     height: 45px;
@@ -52,7 +50,6 @@
 	border: 1px black solid;
 	float: right;
     margin: 0;
-    width: 230px;
     text-align: center;
     font-weight: bold;
     height: 45px;
@@ -63,15 +60,11 @@ section{
 position: relative;
 display: block;
 padding: 40px 15px 15px 15px;
-}
+}	
 
 div	{	
 border: 1px black solid;
 background-color: #CFF2FA;
-}
-
-p{
-	display: block;
 }
 
 }

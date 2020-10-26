@@ -24,7 +24,7 @@
     text-align: center;
     font-weight: bold;
     height: 45px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #double {
@@ -40,7 +40,7 @@
     text-align: center;
     font-weight: bold;
     height: 45px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #family {
@@ -56,7 +56,7 @@
     text-align: center;
     font-weight: bold;
     height: 45px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 section{
@@ -69,6 +69,7 @@ div	{
 border: 1px black solid;
 background-color: #CFF2FA;
 }
+
 p{
 	display: block;
 }
@@ -81,26 +82,21 @@ p{
 
 @media (min-width: 992px ) {
 .col-lg-4{
-	width: 33.3%;
-	float: left;
-
+	width: 33.33%;
 }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 .col-md-6{
 	width: 50%;
-	float: left;
 }
 .col-md-12{
 	width: 100%;
-	float: left;
 }
 }
 
 @media (max-width: 767px ) {
 .col-sm-12{
 	width: 100%;
-	float: left;
 }
 </style>
